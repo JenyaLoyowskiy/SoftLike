@@ -1,0 +1,477 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f8fc;
+}
+
+#navbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0px 6px 5px 0px rgba(207, 207, 207, 0.74);
+  font-family: Montserrat-SemiBold;
+}
+#navbar .logo {
+  width: 20%;
+  display: inherit;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+#navbar .nav-wrapper {
+  display: inherit;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+#navbar .nav-wrapper .nav-items {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+  width: auto;
+}
+#navbar .nav-wrapper .nav-items:hover {
+  cursor: pointer;
+}
+#navbar .profile {
+  width: 24%;
+  height: 100%;
+  display: inherit;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1%;
+  margin-right: 10px;
+  margin-left: auto;
+}
+#navbar .profile .prof-items {
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+}
+#navbar .profile .prof-items img {
+  margin-left: 4px;
+}
+#navbar .profile .prof-items div {
+  margin-top: -30px;
+  margin-right: -15px;
+  background-image: url("../img/notif.png");
+  background-size: 15px 15px;
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  color: white;
+  text-align: center;
+}
+#navbar .profile .grey {
+  height: 44px;
+  width: 44px;
+  background-color: #edeffb;
+  border-radius: 20px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#header {
+  width: 80%;
+  height: 275px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/Layer78.png");
+  background-size: 100% 200px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 13px;
+  background-color: white;
+  box-shadow: 0px 6px 5px 0px rgba(207, 207, 207, 0.74);
+}
+#header .personal-foto {
+  height: 140px;
+  width: 140px;
+  margin-left: 15px;
+}
+#header .personal-info {
+  margin-left: 15px;
+  width: 80%;
+}
+#header .personal-info h3 {
+  margin: 0px;
+  font-weight: 700;
+  color: white;
+  font-family: Montserrat-Bold;
+}
+#header .personal-info span {
+  color: white;
+  font-family: Montserrat-Medium;
+}
+#header .personal-info table {
+  margin-top: 20px;
+  width: 350px;
+}
+#header .personal-info table .purple {
+  color: #457bf3;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header button {
+  height: 50px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  margin-right: 10px;
+  align-self: right;
+  background-color: #edeffb;
+}
+#header button:hover {
+  cursor: pointer;
+}
+
+#profile-menu {
+  height: 350px;
+  width: 11%;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 20px;
+  display: inherit;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
+  font-family: Montserrat-SemiBold;
+}
+#profile-menu h6 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+#profile-menu hr {
+  border: 2px solid #f8f8fc;
+  color: #f8f8fc;
+}
+#profile-menu .menu-items {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#profile-menu .menu-items:hover {
+  cursor: pointer;
+}
+#profile-menu .menu-items:first-of-type {
+  background-color: #f8f8fc;
+}
+
+#forum {
+  width: 53%;
+  height: 600px;
+  background-color: #f8f8fc;
+  float: left;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+#forum div {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+#forum div .send-input {
+  display: inherit;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#forum div .send-input input {
+  border: none;
+  margin-left: 7px;
+  font-weight: bolder;
+  opacity: 0.4;
+  width: 70%;
+}
+#forum div .input-setings {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  padding-left: 30px;
+  height: 80px;
+  align-items: center;
+  background-color: #fbfbfe;
+}
+#forum div .input-setings button {
+  height: 27px;
+  width: 150px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+}
+#forum div .input-setings .publ {
+  background-color: #ffd8e7;
+  color: #fa7578;
+  border: none;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+#forum div .input-setings .private {
+  background-color: inherit;
+  color: #8e98a8;
+  border: 1px solid #8e98a8;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+#forum div .input-setings .send {
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: 20px;
+}
+#forum .comments {
+  background-color: #f8f8fc;
+  font-family: Montserrat-Bold;
+}
+#forum .comments .comment {
+  box-shadow: 0px 6px 5px 0px rgba(207, 207, 207, 0.74);
+  margin-top: 10px;
+}
+#forum .comments .comment .up {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #5a5555;
+}
+#forum .comments .comment .up img {
+  height: 70px;
+}
+#forum .comments .comment .up span {
+  margin-left: 10px;
+}
+#forum .comments .comment .up span .public {
+  width: 60px;
+  height: 80px;
+  background-color: #6fdbe8;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 0px;
+  font-size: 12px;
+  padding: 5px 10px;
+  color: white;
+}
+#forum .comments .comment .up span img {
+  height: 5px;
+}
+#forum .comments .comment .up .date {
+  margin-left: auto;
+  margin-right: 10px;
+  opacity: 0.4;
+}
+#forum .comments .comment .down {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+#forum .comments .comment .down img {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#forum .comments .comment .down img:first-of-type {
+  margin-left: 100px;
+}
+#forum .comments .dropdown {
+  background-color: #f8f8fc;
+}
+
+#sidebar {
+  float: left;
+  width: 14%;
+  height: auto;
+  background-color: inherit;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+#sidebar .achivements {
+  width: 100%;
+  height: 220px;
+  background-color: white;
+}
+#sidebar .achivements h6 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: Montserrat-SemiBold;
+  opacity: 0.7;
+}
+#sidebar .achivements hr {
+  border: 2px solid #f8f8fc;
+}
+#sidebar .achivements img {
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+#sidebar .user-tags {
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+#sidebar .user-tags h6 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: Montserrat-SemiBold;
+  opacity: 0.7;
+}
+#sidebar .user-tags h6 img {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+#sidebar .user-tags hr {
+  border: 2px solid #f8f8fc;
+}
+#sidebar .user-tags div {
+  display: inline-flex;
+  font-family: Montserrat-SemiBold;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #edeffb;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #887ea9;
+}
+#sidebar .user-tags .brown {
+  background-color: #ededed;
+  color: #81817a;
+}
+#sidebar .members {
+  margin-top: 20px;
+  background-color: white;
+}
+#sidebar .members h6 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: Montserrat-SemiBold;
+  opacity: 0.7;
+  align-content: center;
+}
+#sidebar .members h6 img {
+  float: right;
+  margin-right: 15px;
+}
+#sidebar .members hr {
+  border: 2px solid #f8f8fc;
+}
+#sidebar .friends {
+  margin-top: 20px;
+  background-color: white;
+}
+#sidebar .friends h6 {
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: Montserrat-SemiBold;
+  opacity: 0.7;
+  align-content: center;
+}
+#sidebar .friends h6 img {
+  float: right;
+  margin-right: 15px;
+}
+#sidebar .friends hr {
+  border: 2px solid #f8f8fc;
+}
+
+.purple-gradient {
+  background-image: linear-gradient(to right, #2b255e, #3e31a9);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+button:active, button:focus {
+  outline: none !important;
+}
+
+input:active, input:focus {
+  outline: none !important;
+}
+
+@media screen and (max-width: 1500px) {
+  #header {
+    width: 100%;
+  }
+
+  #profile-menu {
+    margin-left: 0px;
+    width: 20%;
+  }
+
+  #sidebar {
+    width: 25%;
+    margin-right: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
